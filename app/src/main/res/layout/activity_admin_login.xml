@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #3E00FF"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:id="@+id/username_admin"
+            android:background="#6231FC"
+            android:drawableTint="@android:color/white"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="16dp"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="#6231FC"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawableTint="@android:color/white"
+            android:drawablePadding="16dp"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:id="@+id/password_admin"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:text="Sign In"
+            android:background="#380CC3"
+            android:id="@+id/signin_admin"
+            />
+    </LinearLayout>
+
+</LinearLayout>

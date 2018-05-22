@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset"
+    android:background="@drawable/geybackground"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true">
+
+
+    <TextView
+        android:text="Dr.John[Neurosurgeon]"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="Dr.Suresh Malhotra[Chestphysician]"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView" />
+
+    <TextView
+        android:text="Dr.Rahul Sharma[Child Specialist]"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:text="Dr.Seema[ENT Specialist]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Dr.Vikas Mishara[Orthopedic Specialist]"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="616dp"
+        android:background="#3E00FF"
+        android:orientation="vertical"
+
+        android:layout_marginBottom="2dp"
+        >
+
+
+
+
+
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/geybackground"
+
+            >
+
+            <ImageView android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/name_update"/>
+
+
+
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Checkin Date in dd-md-yyyy"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:inputType="date"
+
+                android:id="@+id/date_rupdate"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/dose_update"
+                android:inputType="time"
+                android:hint="Dose Time in hh:mm"
+                android:background="#f3f3f3"/>
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+
+                android:text="Medication List"
+                android:background="#380CC3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:textColor="#fff"
+                android:id="@+id/openlist_update"/>
+
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="Update"
+                android:textColor="#fff"
+                android:background="#380CC3"
+                android:id="@+id/save_update"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

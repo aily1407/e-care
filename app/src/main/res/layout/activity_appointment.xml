@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView1"
+    android:layout_marginBottom="10dp">
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="616dp"
+        android:background="#3E00FF"
+        android:orientation="vertical"
+
+        android:layout_marginBottom="2dp"
+        >
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/geybackground"
+
+            >
+
+            <ImageView android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/patient_name"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Problem"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/patient_problem"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Date"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/patient_date"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Mobile"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/patient_mobile"/>
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="submit"
+                android:textColor="#fff"
+                android:background="#380CC3"
+                android:id="@+id/save_appointment"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

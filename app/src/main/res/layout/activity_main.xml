@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E00FF"
+    tools:context=".Main">
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="LOG OUT"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAu"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:text="About Us"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDD"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:text="Doctor Detail"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:text="Register"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnApp"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="Take Appointment"
+        android:textStyle="bold" />
+</RelativeLayout>
