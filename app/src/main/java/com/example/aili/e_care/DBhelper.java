@@ -9,12 +9,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by shobhit pc on 12-Jul-17.
- */
-
 public class DBhelper extends SQLiteOpenHelper {
-    private static final String DB_NAME = "vcare_info";
+    private static final String DB_NAME = "ecare_info";
     private static final int DB_Version = 1;
 
 
