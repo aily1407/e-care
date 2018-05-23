@@ -1,6 +1,6 @@
 # e-care
 
-This is the android applications project that helps the patient to fix their appointments with doctor. The nurse will help the patient to fix their appointment and will arrange the doctor schedule. In this application, there will have 2 log in user which is admin (doctor) to check id they have appointment with patient and the user(nurse) that will register the patient to the appointment with the doctor. This mobile application is easy for the doctor and the nurse.
+This is the android applications project that helps the patient to fix their appointments with doctor. The nurse will help the patient to fix their appointment and will arrange the doctor schedule. In this application, there will have 2 log in user which is admin (doctor) to check if they have appointment with patient and the user(nurse) that will register the patient to the appointment with the doctor. This mobile application is easy for the doctor and the nurse.
 
 
 # Function Modules
@@ -38,3 +38,8 @@ This code can be downloaded and copied without any licenses.
 • Should give notification to patient to know their appointment once the nurse set the appointment on this mobile application.
 
 • Can implement Firebase Database and Firebase Storage on this mobile application to record user's data.
+
+
+# How To Setup
+
+• How to setup. Import all the files in the repository. Open with android studio and run the project.
