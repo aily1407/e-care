@@ -1,25 +1,23 @@
 # e-care
 
-This is a repository for Ez-Directory mobile android application.
-This application is very useful for user to use in their daily life .
-Its has simple interface and be understand by any level of age.
+This is the android applications project that helps the patient to fix their appointments with doctor. The nurse will help the patient to fix their appointment and will arrange the doctor schedule. In this application, there will have 2 log in user which is admin (doctor) to check id they have appointment with patient and the user(nurse) that will register the patient to the appointment with the doctor. This mobile application is easy for the doctor and the nurse.
+
 
 # Function Modules
 
-•	This application help user to upload picture and save contact that have name, number phone and email.
+•	This application help user (nurse) to set appointment the patients with the doctor by sign up the patient's email, first name, last name and password.
 
-•	The picture that upload to server will store as many user upload.
+•	The email and password will be used to sign in the patient using user authentication.
 
-•	The detail that user save also will keep store in application’s storage.
+•	The detail that user save will keep store in application’s storage.
 
-•	This application can be use by any user without user authentication or security features.
-
-•	As long as this application use the given link, all the picture that  upload will save in the same account firebase.
+•	As long as this application use the given link, all the email and password of the patient will save in the same account firebase.
 
 
 # API Reference
 
-Firebase Storage API
+Firebase Authentication API
+
 
 # Installation
 
@@ -27,20 +25,16 @@ Clone or download this github repository
 
 To clone, open your terminal and enter the following command
 
-$ git clone https://github.com/kamarulbaharin/Ez-Directory.git
+$ git clone https://github.com/aily1407/e-care.git
+
 
 # License
 
 This code can be downloaded and copied without any licenses.
 
-# Screenshots
-
-
 
 # Suggestions
 
-• Should have login page on this mobile application.
+• Should give notification to patient to know their appointment once the nurse set the appointment on this mobile application.
 
-• Need to put more functions rather than upload picture and save contacts.
-
-• Can implement Firebase Database and Firebase Authentication on this mobile application to record user's data.
+• Can implement Firebase Database and Firebase Storage on this mobile application to record user's data.
