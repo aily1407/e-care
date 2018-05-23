@@ -9,13 +9,9 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by shobhit pc on 25-Aug-17.
- */
-
 public class Mydb extends SQLiteOpenHelper {
 
-    private static final String DB_NAME = "vcare_appointment";
+    private static final String DB_NAME = "ecare_appointment";
     private static final int DB_Version = 1;
     Context ct;
 
